@@ -1,4 +1,9 @@
 <?php
+
+namespace Admin\Model;
+
+use Think\Model;
+
 // 用户模型
 class UserModel extends CommonModel {
 	public $_validate	=	array(

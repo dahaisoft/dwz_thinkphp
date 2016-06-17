@@ -422,7 +422,7 @@ function saveSort() {
 
     protected function getActionName()
     {
-        return __CONTROLLER__;
+        return CONTROLLER_NAME;
     }
 }
 ?>

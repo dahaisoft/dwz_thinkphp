@@ -1,4 +1,9 @@
 <?php
+
+namespace Admin\Model;
+
+use Think\Model;
+
 class FormModel extends CommonModel {
 	// 自动验证设置
 	protected $_validate	 =	 array(
